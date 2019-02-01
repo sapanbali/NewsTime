@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/tint"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Email "
+            android:textColor="@color/snow"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/email"
+
+
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/snow"
+
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Password "
+            android:textColor="@color/snow"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:inputType="numberPassword"
+            android:textColor="@color/snow" />
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="#1f1f1f"
+        android:onClick="login"
+        android:text="Login"
+        android:textColor="@color/snow"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/snow"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="SIGN IN"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+</RelativeLayout>
